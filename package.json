@@ -4,7 +4,8 @@
   "description": "Node.js Auth system using TDD",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "start": "nodemon server.js -s"
   },
   "author": "Martin Popovic",
   "license": "ISC",
